@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ItemRecycle"
+    android:background="@color/back"
+    android:orientation="vertical">
+
+    <TextView
+        android:textColor="@color/text"
+        android:id="@+id/ID"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="35dp"></TextView>
+
+    <TextView
+        android:textColor="@color/text"
+        android:layout_marginTop="10dp"
+        android:id="@+id/stoping"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="153dp"></TextView>
+
+    <TextView
+        android:textColor="@color/text"
+        android:layout_marginTop="10dp"
+        android:id="@+id/sity"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="265dp"></TextView>
+
+</LinearLayout>

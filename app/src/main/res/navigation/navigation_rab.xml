@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navigation_rab"
+    app:startDestination="@id/searchFragment2">
+
+    <fragment
+        android:id="@+id/searchFragment2"
+        android:name="com.example.avtopark.SearchFragment"
+        android:label="fragment_search"
+        tools:layout="@layout/fragment_search" >
+        <action
+            android:id="@+id/action_searchFragment2_to_info_rab"
+            app:destination="@id/info_rab" />
+        <action
+            android:id="@+id/action_searchFragment2_to_driver_rab"
+            app:destination="@id/driver_rab" />
+    </fragment>
+    <fragment
+        android:id="@+id/info_rab"
+        android:name="com.example.avtopark.Info_rab"
+        android:label="fragment_info_rab"
+        tools:layout="@layout/fragment_info_rab" />
+    <fragment
+        android:id="@+id/driver_rab"
+        android:name="com.example.avtopark.Driver_rab"
+        android:label="fragment_driver_rab"
+        tools:layout="@layout/fragment_driver_rab" />
+</navigation>

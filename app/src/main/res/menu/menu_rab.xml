@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/Home_rab"
+        android:title="Главная"
+        android:icon="@drawable/house"></item>
+    <item android:id="@+id/search_rab"
+        android:title="Информация"
+        android:icon="@drawable/search"></item>
+    <item android:id="@+id/Drivers"
+        android:title="Водитель"
+        android:icon="@drawable/bus"></item>
+</menu>
